@@ -7,7 +7,15 @@
 
 body{
     padding:25px;
-    background-color: #EAF7FC;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background:
+    linear-gradient(
+        rgba(155, 223, 255, 0.2),
+        rgba(155, 223, 255, 0.5)
+    ), url("background.png");
 }
 
 header{
